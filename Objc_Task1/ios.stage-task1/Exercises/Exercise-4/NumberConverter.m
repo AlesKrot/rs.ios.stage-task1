@@ -21,11 +21,6 @@
     for ( int i = 0; i < str.length; ++i ){
         [arr addObject:[NSString stringWithFormat:@"%C", [str characterAtIndex:i]]];
     }
-    
-    if ( number < 0 ){
-        [arr removeObjectAtIndex:0];
-        return arr;
-    }
         
     NSArray *reversedArray = [[arr reverseObjectEnumerator] allObjects];
     
