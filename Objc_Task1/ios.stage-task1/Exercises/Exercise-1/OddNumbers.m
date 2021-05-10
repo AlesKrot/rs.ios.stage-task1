@@ -11,7 +11,15 @@
 @implementation OddNumbers
 
 - (NSInteger)oddNumbers:(NSArray <NSNumber *> *)array {
-    return -1;
+    
+    int count = 0;
+    
+    for ( int i = 0; i < [array count]; ++i )
+        if ([[array objectAtIndex:i]intValue] % 2 != 0)
+            
+            count += 1;
+
+    return count;
 }
 
 @end
