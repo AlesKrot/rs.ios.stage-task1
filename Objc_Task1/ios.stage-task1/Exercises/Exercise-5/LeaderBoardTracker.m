@@ -10,6 +10,7 @@
 
 - (NSArray <NSNumber *> *)trackLeaderBoard:(NSArray <NSNumber *> *)rankedArray
                                playerArray:(NSArray <NSNumber *> *)playerArray {
+    
     return @[];
 }
 
